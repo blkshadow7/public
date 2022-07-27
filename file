@@ -1,0 +1,32 @@
+Tenant
+1. A tenant is associated with a single identity (person, company, or organization) and can own one or several subscriptions.
+2. Every tenant is linked to a single Azure AD instance, which is shared with all tenant's subscriptions
+3. A Tenant refers to a single dedicated and trusted instance of Azure Active Directory and it gets created automatically when you sign up for a Microsoft cloud service subscription.
+4. Azure AD Tenants have globally unique names and, therefore, have a unique id (tenant GUID). In general, an Azure AD tenant name ends with ‘onmicrosoft.com’, for example – atcsl.onmicrosoft.com, where ‘atcsl’ may be the name of an individual or an organization. In essence, a single tenant corresponds to a single instance of Azure Active Directory.
+
+
+
+
+Subscription
+1. A Subscription in Azure can be considered as a logical container into which the resources and services can be created, configured, and installed. For example – Virtual Machines, Web Apps, Storage Accounts, Automations, Functions, Logic Apps, etc. 
+2. Subscriptions come in many flavors, but the easiest way to think about them is an agreement between you and Microsoft that you will use any of the available Azure products under the terms of your subscription and you agree to pay for them after you’ve used them.
+3. Resources from one subscription are isolated from resources in other subscriptions
+4. An owner of a tenant can decide to have multiple subscriptions to isolate resources between different departments, projects, regional offices, and so on.
+
+
+Resource Groups
+1. Below the subscription are resource groups (RG).  These are logical groupings of resources in Azure that allow you to easily view and manage sets of resources associated with a single function.  For example, if you have two complex, multi-component applications A and B, you will want to split them up into resource groups (e.g. RG-A and RG-B) to logically group all the compute, storage, and networking for each application with other related components.   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
