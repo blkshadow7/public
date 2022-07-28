@@ -18,7 +18,10 @@ Resource Groups
 1. Below the subscription are resource groups (RG).  These are logical groupings of resources in Azure that allow you to easily view and manage sets of resources associated with a single function.  For example, if you have two complex, multi-component applications A and B, you will want to split them up into resource groups (e.g. RG-A and RG-B) to logically group all the compute, storage, and networking for each application with other related components.   
 
 
-
+Azure Log Analytics workspace
+The first deployment prerequisite of Azure Sentinel is a Log Analytics workspace where all ingested data will be stored. A Log Analytics workspace is created within a specific Azure region and has a configurable retention period, defining how long data will be stored within the Log Analytics workspace (database). The default is 30 days, but this can be configured to as long as 730 days (2 years).
+Various forms of data may be ingested into the Log Analytics database. Data sources include a wide variety of structured data such as system information from Azure Monitor Agents (AMAs) or Microsoft Monitoring Agents (MMAs) installed on Windows or Linux network endpoints,4 application programming interface (API) integrations, and Azure PaaS services.
+Log Analytics is a component of overall Azure Sentinel cost and is calculated based on the volume of ingested data and the data retention period. 
 
 
 
